@@ -1,9 +1,9 @@
 [[SCS_MKL]]
 arch = "x86_64"
-git-tree-sha1 = "e7304f7d430a3c612f216dabcf72a103f288648c"
+git-tree-sha1 = "8c81be653b8d20e24d7523dd8e56e6aa8476dd6a"
 libc = "glibc"
 os = "linux"
 
     [[SCS_MKL.download]]
-    sha256 = "a809610b5ef17e5d75c47dc31d4cb693c8456564e5e5ec480cd20accd3fc7de1"
-    url = "https://github.com/JuliaBinaryWrappers/SCS_MKL_jll.jl/releases/download/SCS_MKL-v3.2.2+0/SCS_MKL.v3.2.2.x86_64-linux-gnu.tar.gz"
+    sha256 = "33391063d53246d08df720e76c4e066c0a0c3d70b173842b3d17e2b104f4a44d"
+    url = "https://github.com/JuliaBinaryWrappers/SCS_MKL_jll.jl/releases/download/SCS_MKL-v3.2.3+0/SCS_MKL.v3.2.3.x86_64-linux-gnu.tar.gz"
