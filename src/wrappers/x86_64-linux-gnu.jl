@@ -2,10 +2,11 @@
 export libscsmkl
 
 using MKL_jll
+using CompilerSupportLibraries_jll
 JLLWrappers.@generate_wrapper_header("SCS_MKL")
 JLLWrappers.@declare_library_product(libscsmkl, "libscsmkl.so")
 function __init__()
-    JLLWrappers.@generate_init_header(MKL_jll)
+    JLLWrappers.@generate_init_header(MKL_jll, CompilerSupportLibraries_jll)
     JLLWrappers.@init_library_product(
         libscsmkl,
         "lib/libscsmkl.so",
