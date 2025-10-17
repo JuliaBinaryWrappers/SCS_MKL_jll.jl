@@ -1,6 +1,6 @@
 name = "SCS_MKL_jll"
 uuid = "3f2553a9-4106-52be-b7dd-865123654657"
-version = "3.2.9+0"
+version = "300.200.900+0"
 
 [deps]
 JLLWrappers = "692b3bcd-3c85-4b1f-b108-f13ce0eb3210"
