@@ -5,5 +5,5 @@ using Base: UUID
 import JLLWrappers
 
 JLLWrappers.@generate_main_file_header("SCS_MKL")
-JLLWrappers.@generate_main_file("SCS_MKL", UUID("3f2553a9-4106-52be-b7dd-865123654657"))
+JLLWrappers.@generate_main_file("SCS_MKL", Base.UUID("3f2553a9-4106-52be-b7dd-865123654657"))
 end  # module SCS_MKL_jll
